@@ -1,0 +1,115 @@
+body {
+  font-family: 'Roboto', sans-serif;
+  font-size: 16pt;
+}
+
+h1 {
+  font-family: 'Oswald', sans-serif;
+  font-size: 72pt;
+  text-align: center;
+  font-weight: 300;
+}
+
+h2 {
+  font-family: 'Oswald', sans-serif;
+  font-size: 72pt;
+  text-align: center;
+  font-weight: 700;
+}
+
+h3 {
+  font-family: 'Oswald', sans-serif;
+  font-size: 52pt;
+  text-align: center;
+  font-weight: 700;
+}
+
+h4 {
+  font-family: 'Roboto', sans-serif;
+  font-size: 25pt;
+  text-align: center;
+  font-weight: 700;
+  color:#373A3C;
+}
+
+h5 {
+  font-family: 'Oswald', sans-serif;
+  font-size: 25pt;
+  font-weight: 700;
+  color:#373A3C;
+}
+
+hr {
+    width: 20%;
+    color: #373A3C;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    border: 0;
+    border-top: 5px solid #343a40;
+    margin-top: 44px;
+}
+
+.hr2 {
+    width: 20%;
+    color: #373A3C;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    border: 0;
+    border-top: 5px solid #ffffff;
+    margin-top: 44px;
+}
+
+p {
+  line-height: 250%;
+  font-size: 16pt;
+  font-family: 'Roboto', sans-serif;
+}
+
+.logo {
+  font-family: 'Oswald', sans-serif;
+}
+
+.bg-hero {
+  background-image: url('../img/bg_hero.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 737pt;
+  color: white;
+}
+
+.titulo {
+  font-size: 300;
+  font-family: 'Oswald', sans-serif;
+  font-size: 72pt;
+  text-align: center;
+  padding-top:62%;
+}
+
+.espacios {
+  margin-top: 10%;
+  margin-bottom: 10%;
+}
+
+.about {
+  margin-bottom: 10%;
+}
+
+.mi-experiencia {
+
+}
+
+.trabajos {
+  background: #660066;
+  padding-top: 52pt;
+  margin-top: 52pt;
+}
+
+span { 
+  color: #660066;
+  margin-top: 5%;
+  margin-bottom: 5%;
+ }
+
+ .contacto {
+  margin-top: 5%;
+ }
