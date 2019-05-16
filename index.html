@@ -18,10 +18,10 @@
 		</button>
 		<div class="collapse navbar-collapse nav justify-content-end" id="navbarNavAltMarkup">
 			<div class="navbar-nav">
-				<a class="nav-item nav-link active text-white" href="#">Sobre mi<span class="sr-only">(current)</span></a>
-				<a class="nav-item nav-link text-white" href="#">Experiencia</a>
-				<a class="nav-item nav-link text-white" href="#">Trabajos</a>
-				<a class="nav-item nav-link text-white" href="#">Contacto</a>
+				<a class="nav-item nav-link active text-white" href="#sobre">Sobre mi<span class="sr-only">(current)</span></a>
+				<a class="nav-item nav-link text-white" href="#experiencia">Experiencia</a>
+				<a class="nav-item nav-link text-white" href="#trabajos">Trabajos</a>
+				<a class="nav-item nav-link text-white" href="#contacto">Contacto</a>
 			</div>
 		</div>
 	</nav>
@@ -29,7 +29,7 @@
 		<div class="container-fluid">
 			<div class="yo">
 				<h1 class="titulo">YO SOY</h1>
-				<h2>MAGDALENA</h2>
+				<h2>FERNANDO</h2>
 			</div>
 		</div>
 	</header>
@@ -37,28 +37,25 @@
 	<div class="container">
 		<div class="row">
 			<section class="col-12 espacios d-none d-md-block">
-				<h4>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec mattis ante nulla. Donec in neque consectetur, ultrices justo eu, hendrerit lectus.</h4>
+				<h4>Necesitas solución a tus ideas… No dudes en contactarme y pronto daré respuesta a todas tus consultas, gracias por tu visita.</h4>
 				<hr>
 			</section>
 		</div>
 	</div>
-	<section class="about">
+	<section id="sobre" class="about">
 		<div class="container">
 			<div class="row">
 				<div class="col-12 col-sm-12 col-md-12 col-lg-6 d-none d-md-block">
-					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec mattis ante nulla. Donec in neque consectetur, ultrices justo eu, hendrerit lectus.
-						Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec mattis ante nulla. Donec in neque consectetur, ultrices justo eu, hendrerit lectus.
-					Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec mattis ante nulla. Donec in neque consectetur, ultrices justo eu, hendrerit lectus.</p>
+					<p>Diseñador gráfico con sede actual en Santiago de Chile quien cuenta con más de 5 años de experiencia. Ha trabajado con una amplia gama de clientes nacionales en gran cantidad de proyectos que varían en escala, disciplina y complejidad.</p>
 				</div>
 				<div class="col-12 col-sm-12 col-md-12 col-lg-6 d-none d-md-block">
-					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec mattis ante nulla. Donec in neque consectetur, ultrices justo eu, hendrerit lectus.
-						Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec mattis ante nulla. Donec in neque consectetur, ultrices justo eu, hendrerit lectus.
-					Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec mattis ante nulla. Donec in neque consectetur, ultrices justo eu, hendrerit lectus.</p>
+					<p>También persigue activamente una práctica personal que abarca el diseño, la exploración visual, tecnología.
+					Actualmente se desempeña como diseñador en idea uno con clientes como CCU, OTIC, Vespucio norte, entre otros.</p>
 				</div>
 			</div>	
 		</div>		
 	</section>
-	<section class="mi-experiencia">
+	<section id="experiencia" class="mi-experiencia">
 		<div class="container">
 			<div class="row">
 				<div class="col-12 mb-5">
@@ -84,7 +81,7 @@
 			</div>
 		</div>
 	</section>
-	<section class="trabajos">
+	<section id="trabajos" class="trabajos">
 		<div class="container">
 			<div class="row">
 				<div class="col-12">
@@ -96,7 +93,25 @@
 						<img src="assets/img/cuppon.png" class="card-img-top" alt="...">
 						<div class="card-body">
 							<h5 class="card-title">Cuppon</h5>
-							<p class="card-text">Felis tincidunt vel risus lacus posuere dignissim habitasse sapien, scelerisque semper fusce turpis cubilia cursus a taciti, ligula in at sociis accumsan donec ridiculus.</p>
+							<p class="card-text">Cuenta con nuestra experiencia en el desarrollo de sitios web a medida, atractivos y de calidad en función a los requerimientos del cliente</p>
+							<button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal">Leer más</button>
+
+							<!-- Modal -->
+							<div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+								<div class="modal-dialog" role="document">
+									<div class="modal-content">
+										<div class="modal-header">
+											<h5 class="modal-title" id="exampleModalLabel">Proyecto Cuppon</h5>
+											<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+												<span aria-hidden="true">&times;</span>
+											</button>
+										</div>
+										<div class="modal-body">
+											<img src="assets/img/cuppon.png" class="card-img-top" alt="...">
+										</div>
+									</div>
+								</div>
+							</div>
 						</div>
 					</div>
 				</div>
@@ -104,8 +119,26 @@
 					<div class="card my-5">
 						<img src="assets/img/dmark.png" class="card-img-top" alt="...">
 						<div class="card-body">
-							<h5 class="card-title">Cuppon</h5>
-							<p class="card-text">Felis tincidunt vel risus lacus posuere dignissim habitasse sapien, scelerisque semper fusce turpis cubilia cursus a taciti, ligula in at sociis accumsan donec ridiculus.</p>
+							<h5 class="card-title">Tu marca es tu verdadera identidad</h5>
+							<p class="card-text">Cuenta con nuestra experiencia en el desarrollo de sitios web a medida, atractivos y de calidad en función a los requerimientos del cliente</p>
+							<button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal2">Leer más</button>
+
+							<!-- Modal -->
+							<div class="modal fade" id="exampleModal2" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+								<div class="modal-dialog" role="document">
+									<div class="modal-content">
+										<div class="modal-header">
+											<h5 class="modal-title" id="exampleModalLabel">Tu marca es tu verdadera identidad</h5>
+											<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+												<span aria-hidden="true">&times;</span>
+											</button>
+										</div>
+										<div class="modal-body">
+											<img src="assets/img/dmark.png" class="card-img-top" alt="...">
+										</div>
+									</div>
+								</div>
+							</div>
 						</div>
 					</div>
 				</div>
@@ -115,6 +148,24 @@
 						<div class="card-body">
 							<h5 class="card-title">Cuppon</h5>
 							<p class="card-text">Felis tincidunt vel risus lacus posuere dignissim habitasse sapien, scelerisque semper fusce turpis cubilia cursus a taciti, ligula in at sociis accumsan donec ridiculus.</p>
+							<button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal3">Leer más</button>
+
+							<!-- Modal -->
+							<div class="modal fade" id="exampleModal3" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+								<div class="modal-dialog" role="document">
+									<div class="modal-content">
+										<div class="modal-header">
+											<h5 class="modal-title" id="exampleModalLabel">Iguana page</h5>
+											<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+												<span aria-hidden="true">&times;</span>
+											</button>
+										</div>
+										<div class="modal-body">
+											<img src="assets/img/iguana_page.png" class="card-img-top" alt="...">
+										</div>
+									</div>
+								</div>
+							</div>
 						</div>
 					</div>
 				</div>
@@ -148,7 +199,7 @@
 			</div>
 		</div>
 	</section>
-	<section class="contacto">
+	<section id="contacto" class="contacto">
 		<div class="container">
 			<div class="row">
 				<div class="col-12">
@@ -166,34 +217,27 @@
 			<div class="row">
 				<div class="col-12 col-sm-12-6 col-md-12 col-lg-6">
 					<center>
-						<h5 class="text-white">MAGDALENA</h5>
+						<h5 class="text-white">FERNANDO</h5>
 					</center>
 				</div>
 				<div class="col-12 col-sm-12-6 col-md-12 col-lg-6">
 					<center>
-						<i class="fab fa-github fa-3x owfont text-white iconos" data-toggle="tooltip" title="Encuentrame en"></i>
-						<i class="fab fa-linkedin fa-3x owfont text-white iconos" data-toggle="tooltip" title="Encuentrame en"></i>
-						<i class="fab fa-twitter-square fa-3x owfont text-white iconos" data-toggle="tooltip" title="Encuentrame en"></i>
-						<i class="fab fa-facebook-square fa-3x owfont text-white iconos" data-toggle="tooltip" title="Encuentrame en"></i>
+						<i class="fab fa-github fa-3x owfont text-white iconos" data-container="body" data-toggle="popover" data-trigger="hover" data-placement="bottom" title="Encuentrame en"></i>
+						<i class="fab fa-linkedin fa-3x owfont text-white iconos" data-container="body" data-toggle="popover" data-trigger="hover" data-placement="bottom" title="Encuentrame en"></i>
+						<i class="fab fa-twitter-square fa-3x owfont text-white iconos" data-container="body" data-toggle="popover" data-trigger="hover" data-placement="bottom"  title="Encuentrame en"></i>
+						<i class="fab fa-facebook-square fa-3x owfont text-white iconos" data-container="body" data-toggle="popover" data-trigger="hover" data-placement="bottom" title="Encuentrame en"></i>
 					</center>
 				</div>
 			</div>
 		</div>
 	</footer>
 
+	<script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
 
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js" integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut" crossorigin="anonymous"></script>
 
+	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js" integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k" crossorigin="anonymous"></script>
 
+	<script src="assets/js/script.js"></script>
 
-
-		<!-- Optional JavaScript -->
-		<!-- jQuery first, then Popper.js, then Bootstrap JS -->
-		<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-		<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
-		<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
-		<script>
-			$( document ).ready(function() {
-				$('[data-toggle="tooltip"]').tooltip()
-			});
-		</script>
 </body>
